@@ -1,0 +1,26 @@
+body {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	height: 100vh;
+}
+
+#canvas {
+	border: 3px solid black;
+}
+
+p {
+	margin: 15px 0;
+	font-family: Comic Sans MS;
+	font-size: 22px;
+}
